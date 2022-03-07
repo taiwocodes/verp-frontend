@@ -1,0 +1,130 @@
+.body{
+    background: linear-gradient(104.5deg, #27153E 54.58%, #5B104E 76.97%, #910A5F 84.04%, #F5007E 88.9%);
+    width: 100%;
+    height: 935px;
+    color: #ffff;
+    margin: 0;
+}
+.intro{
+    /* margin: 4%; */
+    display: flex;
+    padding: 4%;
+}
+.top-nav{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+}
+#navlink, #login{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.onboard a{
+    display: inline-block;
+    padding-right: 30px;
+}
+.onboard-btn{
+    background: #F5007E;
+    color: #ffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.intro-text{
+    font-size: 56px;
+}
+.image-in-arc{
+    float: right;
+    background: linear-gradient(180deg, #27153E 0%, #4D3A65 24.48%, #DFA2C1 100%);
+    border: 40px solid #E5E5E5;
+    box-shadow: 32px 32px 120px 0px #00000040;
+    border-radius: 346px 346px 32px 32px;
+    height: 612px;
+    /* width: 35%; */
+}
+.white-part{
+    margin-top: 5%;
+}
+
+.middle-section-heading{
+    text-align: center;
+    font-size: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 22%;
+    height: 314px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    /* padding: 50px; */
+}
+.card-content{
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+.card-number{
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    display: inline-block;
+    font-size: 26px;
+    /* padding: 8px; */
+    color: #ffff;
+    text-align: center;
+}
+.one{
+    background-color: #5B67C9;
+}
+.two{
+    background: #FF435B;
+}
+.three{
+    background: #45A145;
+}
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    text-align: left;
+    /* margin: 5%; */
+    width: 37%;
+}
+.list-list{
+    margin: 2%;
+    box-shadow: 5px 10px 19px #8888;
+    padding: 20px;
+}
+.inner-f{
+    margin-left: 18%;
+}
+.bar{
+    background: #27153E;
+    width: 9px;
+    height: 430px;
+    border-radius: 32px;
+}
+.features-right{
+    /* float: right; */
+}
+.join-convo{
+    text-align: center;
+    margin: 15% 0;
+}

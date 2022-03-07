@@ -1,0 +1,28 @@
+.footer-body{
+    background: linear-gradient(104.5deg, #27153E 54.58%, #5B104E 76.97%, #910A5F 84.04%, #F5007E 88.9%);
+    width: 100%;
+    color: #ffff;
+    margin: 0;
+    position: absolute;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.info-head{
+    color: #ffff;
+}
+.link{
+    text-decoration: none;
+    color: #ffff;
+    padding-bottom: 10px;
+}
+.link:hover{
+    color: #ffff;
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin: 5%;
+}

@@ -1,0 +1,42 @@
+.side-panel{
+    background: #27153E;
+    width: 40%;
+    height: 1200px;
+    float: left;
+    position: fixed;
+}
+.form-body{
+    float: right;
+   width: 50%;
+   margin: auto;
+   margin-top: 8%;
+}
+.input-section{
+    padding-top: 25px;
+}
+.input-box{
+    border-radius: 16px !important;
+    width: 244px !important;
+    height: 55px !important;
+    border: 1px solid #000000 !important;
+}
+.done{
+    background: #F5007E;
+    color: #ffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 16px;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+.lower-p{
+    font-weight: bold;
+    margin: 30px 0;
+}
+.lower-p a{
+    color: #F5007E;
+    padding-left: 10px;
+}
+.for-login{
+    width: 60% !important;
+}
