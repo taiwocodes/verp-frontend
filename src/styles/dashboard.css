@@ -1,5 +1,7 @@
-.search{
-    /* width: 50%; */
-    /* margin-left: 50%; */
-    border: none;
+.dashboard{
+    float: right;
+    width: 100%;
+    /* margin: auto; */
+    margin-top: 8%;
+    margin-left: 0;
 }

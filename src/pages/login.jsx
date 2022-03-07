@@ -2,9 +2,14 @@ import React from 'react';
 import { Form, Input, Checkbox } from 'antd';
 import Logo from '../components/logo';
 import welcome from '../images/welcome.png';
+import { useNavigate } from 'react-router-dom';
 import '../styles/form.css';
 
 function Login() {
+	const navigate = useNavigate();
+	const handleClick = () => {
+		navigate('/dashboard');
+	}
 	return (
 		<>
 			<div className='side-panel'>
@@ -46,7 +51,7 @@ function Login() {
                     <Form.Item name="remember" valuePropName="checked" style={{fontWeight: 'bold'}}>
                     <Checkbox>Remember me</Checkbox>
                     </Form.Item>
-                    <button className='done'>Sign In</button> 
+                    <button className='done' onClick={handleClick}>Sign In</button> 
 
                     <div className='lower-p'>
                     <span>Don't have an account?</span>

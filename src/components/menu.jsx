@@ -5,7 +5,8 @@ import {
   UsergroupAddOutlined,
   WechatOutlined,
   FileTextOutlined,
-  SettingOutlined
+  SettingOutlined,
+  LogoutOutlined
 } from '@ant-design/icons';
 import '../styles/menu.css'
 import Logo from './logo';
@@ -23,6 +24,7 @@ function SidePanel(){
           <NavLink to='/resources' className='menu-link'><FileTextOutlined style={{paddingRight:'15px'}}/>Resources</NavLink>
           <NavLink to='/settings' className='menu-link'><SettingOutlined style={{paddingRight:'15px'}}/>Settings</NavLink>
         </div>
+        <NavLink to='/login'><LogoutOutlined />Logout</NavLink>
       </div>
     </>
     )

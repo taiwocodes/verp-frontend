@@ -1,10 +1,15 @@
 import React from 'react';
 import { Form, Input, Checkbox } from 'antd';
+import { useNavigate } from 'react-router-dom';
 import Logo from '../components/logo';
 import reg_image from '../images/lady_with_phone.png';
 import '../styles/form.css';
 
 function Register() {
+	const navigate = useNavigate();
+	const handleClick = () => {
+		navigate('/login');
+	}
 	return (
 		<>
 			<div className='side-panel'>
@@ -84,7 +89,7 @@ function Register() {
                     <Form.Item name="remember" valuePropName="checked" style={{fontWeight: 'bold'}}>
                     <Checkbox>I have read and agree to the Terms and Privacy Policy.</Checkbox>
                     </Form.Item>
-                    <button className='done'>Sign Up</button> <br/>
+                    <button className='done' onClick={handleClick}>Sign Up</button> <br/>
                     <div className='lower-p'>
                     <span>Already have an account?</span>
                     <a href='/login'>Sign In</a>
