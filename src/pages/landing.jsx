@@ -102,9 +102,9 @@ function Landing() {
                     </div>
                     <div className="bar"></div>
                     <div className='features-right'>
-                        <h2>Our Features</h2>
-                        <p>Our features are carefully organised to <br/> make getting in to tech easier for you <br/> even if you do not have prior experience </p>
-					    <button className='onboard-btn' onClick={handleClick}>Get started</button>
+                        <h2 style={{fontSize: '45px', fontWeight:'bold', marginBottom:'0'}}>Our Features</h2>
+                        <p>Our features are carefully organised to <br/> make getting into tech easier for you <br/> even if you do not have prior experience </p>
+					    <button className='onboard-btn' onClick={handleClick} style={{width:'154px'}}>Get started</button>
                     </div>
                 </div>
 

@@ -33,9 +33,9 @@ function Footer() {
     </div>
 
         <div className='bottom'>
-        <span>@verp. All rights reserved.</span>
-        <span>Terms and Condtions.</span>
-        <span>Privacy.</span>
+        <span>©verp. All rights reserved.</span>
+        <span>Terms and Condtions</span>
+        <span>Privacy Policy</span>
         </div>
 
     </div>
